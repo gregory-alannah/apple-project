@@ -1,0 +1,139 @@
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: "Monserrat", "sans-serif"; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap");
+
+/* Resetting page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+/* Setting font-size to 62.5% */
+html {
+  font-size: 62.5%;
+}
+
+/* Setting the nav menu with a background color of black*/
+.main-menu {
+  height: 4.5rem;
+  background: url(imgs/nav-bg.jpg);
+  background-size: container;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Centering the nav with flex */
+.main-menu ul {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+/* centering the list items with flex and adding a color, list-style and font-size */
+.main-menu li {
+  list-style: none;
+  color: #a2a2a2;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+/* setting the width of the logo */
+img.logo {
+  width: 3.2rem;
+}
+
+/* setting the width of the search icon */
+img.search {
+  width: 3.5rem;
+}
+
+/* setting the width  of the cart */
+img.cart {
+  width: 5.2rem;
+}
+
+/* setting the width of the main image on homepage */
+img.iphone-13 {
+  width: 11.3rem;
+}
+
+/* Adding space with content area */
+section.iphone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 7rem;
+}
+
+section.top-content {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 3rem 0;
+  background-color: #fbfbfd;
+}
+/* button color */
+a.hyp {
+  color: #0b6dce;
+}
+
+.main-text {
+  font-size: 5.5rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.second-text {
+  font-size: 2.2rem;
+}
+
+/* purchase options */
+.second-text {
+  margin: 0.8rem 0;
+  color: gray;
+}
+
+/* button color and style */
+a.hyp-link {
+  margin: 0 2.5rem;
+  color: #0b6dce;
+  text-decoration: none;
+}
+
+/* button; adding hover effect underline */
+a.hyp-link:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+.bottom-of-page {
+  background: url(imgs/nav-bg.jpg);
+  background-size: container;
+  text-align: center;
+  color: white;
+}
+
+/* footer copyright */
+.copyright {
+  color: white;
+  font-size: 2rem;
+  padding: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #a2a2a2;
+}
+
+.donate-button {
+  color: #0b6dce;
+  text-decoration: underline;
+}
